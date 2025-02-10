@@ -8,8 +8,8 @@ const Google = () => {
       transition={{ delay: 0.1 }}
       className="w-full"
     >
-      <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Associate Software Engineer
+      <h3 className="flex gap-1 flex-wrap font-medium text-md lg:text-lg font-titleFont">
+      Associate Software Engineer
         <span className="text-textGreen tracking-wide">
           @ Moshlay Creatives
         </span>

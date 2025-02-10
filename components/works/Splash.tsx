@@ -9,8 +9,8 @@ const Splash = () => {
       transition={{ delay: 0.1 }}
       className="w-full"
     >
-      <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        MERN Stack Intern
+      <h3 className="flex gap-1 flex-wrap font-medium text-md lg:text-lg font-titleFont">
+      MERN Stack Intern
         <span className="text-textGreen tracking-wide">@ Stampa Solutions</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">

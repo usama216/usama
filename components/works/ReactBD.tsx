@@ -9,7 +9,7 @@ const ReactBD = () => {
       transition={{ delay: 0.1 }}
       className="w-full"
     >
-      <h3 className="flex gap-1 font-medium text-xl font-titleFont">
+      <h3 className="flex gap-1 font-medium text-md lg:text-lg font-titleFont">
         Software Engineer
         <span className="text-textGreen tracking-wide">
           @ Binary Brix Pvt Ltd
