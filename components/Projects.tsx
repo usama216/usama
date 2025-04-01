@@ -62,17 +62,17 @@ const projects = [
     link: "#",
     technologies: ["React.js", "JavaScript", "Material UI", "Redux Toolkit"],
   },
+  // {
+  //   id: 5,
+  //   title: "RemcoSol Tech",
+  //   description:
+  //     "Developed RemcoSol Tech, a professional company website showcasing services and expertise using React.js. Designed a responsive and modern UI for an engaging user experience. Optimized performance, SEO, and backend functionality for seamless navigation and lead generation.",
+  //   image: remcosol,
+  //   link: "https://remcosol.com/",
+  //   technologies: ["React.js", "JavaScript", "Material UI", "Redux Toolkit"],
+  // },
   {
     id: 5,
-    title: "RemcoSol Tech",
-    description:
-      "Developed RemcoSol Tech, a professional company website showcasing services and expertise using React.js. Designed a responsive and modern UI for an engaging user experience. Optimized performance, SEO, and backend functionality for seamless navigation and lead generation.",
-    image: remcosol,
-    link: "https://remcosol.com/",
-    technologies: ["React.js", "JavaScript", "Material UI", "Redux Toolkit"],
-  },
-  {
-    id: 6,
     title: "Twinlime",
     description:
       "Twinlime is a leading distributor in the market Turkmenistan, specializing in the supply high-quality food additives for various industries food and beverage industry",
