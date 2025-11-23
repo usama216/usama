@@ -14,9 +14,9 @@ const About = () => {
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
           
-          Hello! I'm Usama Jawad, a passionate Frontend Developer who enjoys creating meaningful, user-focused experiences on the internet. My journey in web development began in 2020 when I started experimenting with custom Tumblr themes. What began as simple curiosity, like building a custom reblog button quickly grew into a strong foundation in HTML and CSS, eventually shaping my career.
+          Hello! I&apos;m Usama Jawad, a passionate Frontend Developer who enjoys creating meaningful, user-focused experiences on the internet. My journey in web development began in 2020 when I started experimenting with custom Tumblr themes. What began as simple curiosity, like building a custom reblog button quickly grew into a strong foundation in HTML and CSS, eventually shaping my career.
 <br/>
-Today, I’ve had the opportunity to work in software development agencies, contributing to diverse projects and collaborating with teams to deliver scalable, high-quality web applications. I’m always eager to learn, grow, and explore modern technologies to build interfaces that are fast, accessible, and visually appealing.
+Today, I&apos;ve had the opportunity to work in software development agencies, contributing to diverse projects and collaborating with teams to deliver scalable, high-quality web applications. I&apos;m always eager to learn, grow, and explore modern technologies to build interfaces that are fast, accessible, and visually appealing.
           
           
               </p>
