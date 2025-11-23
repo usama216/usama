@@ -10,7 +10,7 @@ const ReactBD = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-md lg:text-lg font-titleFont">
-        Software Engineer
+        Senior Software Engineer
         <span className="text-textGreen tracking-wide">
           @ Binary Brix Pvt Ltd
         </span>
@@ -18,28 +18,52 @@ const ReactBD = () => {
       <p className="text-sm mt-1 font-medium text-textDark">
         Nov 2024 - present
       </p>
+      <p className="text-sm text-textDark">
+        At Binary Brix Pvt Ltd, I work as a Senior Software Engineer, leading the development of high-quality, scalable, and modern web applications. My role involves collaborating with cross-functional teams, guiding junior developers, and ensuring that every product we deliver meets industry standards in performance, accessibility, and maintainability.
+      </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Write modern, performant, maintainable code for a diverse array of
-          client and internal projects
+          Develop modern, performant, and maintainable codebases across multiple client and in-house projects.
+        </li>
+
+
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          Lead the frontend architecture for SaaS platforms, marketplace applications, and AI-driven products.  </li>
+
+
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          Work extensively with JavaScript, TypeScript, React, Next.js, Node.js, Express, and related modern frameworks to build robust applications.  </li>
+
+     <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          Work across various platforms and ecosystems, including CMS systems, cloud deployments, analytics tools, and version control pipelines.
+ </li>
+
+
+
+
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          Collaborate daily with designers, backend engineers, project managers, and QA teams to ensure seamless product delivery.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Work with a variety of different languages, platforms, frameworks, and
-          content management systems such as JavaScript, TypeScript, Gatsby,
-          React, Craft, WordPress, Prismic, and Netlify
-        </li>
-        <li className="text-base flex gap-2 text-textDark">
-          <span className="text-textGreen mt-1">
-            <TiArrowForward />
-          </span>
-          Communicate with multi-disciplinary teams of engineers, designers,
-          producers, and clients on a daily basis
+          Review code, provide technical mentorship, and help junior developers improve their coding practices and problem-solving skills.
         </li>
       </ul>
     </motion.div>

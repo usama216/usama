@@ -13,17 +13,18 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Usama Jawad and I enjoy creating things that live
-            on the internet. My interest in web development started back in 2020
-            when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
-          </p>
+          
+          Hello! I'm Usama Jawad, a passionate Frontend Developer who enjoys creating meaningful, user-focused experiences on the internet. My journey in web development began in 2020 when I started experimenting with custom Tumblr themes. What began as simple curiosity, like building a custom reblog button quickly grew into a strong foundation in HTML and CSS, eventually shaping my career.
+<br/>
+Today, I’ve had the opportunity to work in software development agencies, contributing to diverse projects and collaborating with teams to deliver scalable, high-quality web applications. I’m always eager to learn, grow, and explore modern technologies to build interfaces that are fast, accessible, and visually appealing.
+          
+          
+              </p>
           <p>
             Fast-forward to today, and I had the privilege of working at a 
             
             <span className="text-textGreen">
-             software development agency.
+            {" "} software development agency.
                         </span>
            
           </p>
@@ -100,7 +101,18 @@ BootStrap            </li>
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-Firebase           </li>          
+Firebase           </li> 
+
+   <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+Supabase           </li> 
+   <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+Postgre SQL           </li> 
           </ul>
         </div>
         <div className="w-full lgl:w-1/3 h-80 relative group">

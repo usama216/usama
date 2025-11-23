@@ -53,11 +53,11 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="max-w-containerxs mx-auto py-10 lgl:py-24 px-4"
+      className=" mx-auto py-10 lgl:py-4 px-[5%] lg:px-[15%]"
     >
       <SectionTitle title="Where I have Worked" titleNo="02" />
       <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
-        <ul className="md:w-32 flex flex-col">
+        <ul className="md:w-[20rem] flex flex-col">
           <li
             onClick={handleReactbd}
             className={`${

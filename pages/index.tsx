@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 import About from "@/components/About";
 import Banner from "@/components/Banner";
 import Contact from "@/components/Contact";
@@ -12,6 +14,24 @@ import { motion } from "framer-motion";
 import Archive from "@/components/Archive";
 
 export default function Home() {
+  const router = useRouter();
+
+  useEffect(() => {
+    // Handle scroll to section when page loads with hash
+    if (router.asPath.includes("#")) {
+      const hash = router.asPath.split("#")[1];
+      setTimeout(() => {
+        const elem = document.getElementById(hash);
+        if (elem) {
+          elem.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        }
+      }, 500);
+    }
+  }, [router.asPath]);
+
   return (
     <>
       <Head>

@@ -20,8 +20,8 @@ const Banner = () => {
         className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
       >
         Usama Jawad
-        <span className="text-textDark mt-2 lgl:mt-4">
-          I build things for the web.
+        <span className="text-textDark mt-2 lgl:mt-4 text-2xl lgl:text-3xl">
+        Senior Software Engineer building scalable web applications
         </span>
       </motion.h1>
       <motion.p
@@ -30,10 +30,7 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I am a web developer with 3+ years of experience in React. I have a
-        strong foundation in front-end & back-end development and am skilled in
-        creating user-friendly and responsive web applications using React and
-        its ecosystem.{" "}
+      Senior Software Engineer with 4+ years of full-stack experience, specializing in React, Next.js, Node.js, and Supabase. Strong background in building performant UIs, scalable backend services, API integrations, and cloud-based solutions.{" "}
         {/* <a href="https://www.noormohammad.live/" target="_blank">
           {" "}
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">

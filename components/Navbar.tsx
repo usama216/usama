@@ -3,6 +3,7 @@ import { logo } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { useRouter } from "next/router";
 import { TbBrandGithub } from "react-icons/tb";
 import { SlSocialYoutube } from "react-icons/sl";
 import {
@@ -16,15 +17,39 @@ import { motion } from "framer-motion";
 const Navbar = () => {
   const ref = useRef<string | any>("");
   const [show, setShow] = useState(false);
+  const router = useRouter();
+
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     e.preventDefault();
     setShow(false);
     const href = e.currentTarget.href;
     const targetId = href.replace(/.*\#/, "");
-    const elem = document.getElementById(targetId);
-    elem?.scrollIntoView({
-      behavior: "smooth",
-    });
+    
+    // If we're not on home page and clicking on project link, navigate to home first
+    if (targetId === "project" && router.pathname !== "/") {
+      router.push("/#project").then(() => {
+        // Wait for page to load, then scroll to section
+        setTimeout(() => {
+          const elem = document.getElementById(targetId);
+          if (elem) {
+            elem.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        }, 300);
+      });
+    } else {
+      // If on home page, just scroll
+      const elem = document.getElementById(targetId);
+      if (elem) {
+        elem.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
+    }
+    
     // Update the class name of the clicked link
     const links = document.querySelectorAll(".nav-link");
     links.forEach((link) => {
@@ -127,7 +152,12 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href="/assets/Usama_Jawad.pdf" target="_blank">
+          <a 
+            href="/assets/Usama_Jawad.pdf" 
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Usama Jawad - Resume"
+          >
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -236,7 +266,12 @@ const Navbar = () => {
                     </motion.li>
                   </Link>
                 </ul>
-                <a href="/assets/Usama_Jawad.pdf" target="_blank">
+                <a 
+                  href="/assets/Usama_Jawad.pdf" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Usama Jawad - Resume"
+                >
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
